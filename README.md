@@ -3,9 +3,9 @@ A remarkably simple mixin module to enable class-based JS to achieve easy namesp
 
 Just two functions... used in the class constructors... of all your classes...  
 
-Inside Ancestor class constructors -> `makeMixable(this, <AncestorClassName>)`  
+Inside Ancestor class constructors ->  `makeMixable( this, <AncestorClassName> )`  
 
-Inside Child class constructors    ->  `Mixin()`  
+Inside Child class constructors    ->  `Mixin( this.<namespace> = {}, new <ChildClassName>() )`  
 
 
 
