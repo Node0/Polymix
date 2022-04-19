@@ -75,12 +75,17 @@ class NanoProbe {
 Then in child classes...  
 
 ```
-// ES6 Class based OOP allows for single-inheritance only
-class Animal extends Eukaryote {
+// ES6 Class based OOP allows for single-inheritance only  
+
+class Animal extends Eukaryote {  
+
   // All the magic happens in the constructor...🔥
-  constructor(name, radius) {
+  constructor(name, radius) {  
+  
     // Pass radius to the superclass's constructor
-    super(radius);
+    super(radius);  
+    
+    // Initialize other normal child class properties
     this.name = name;
     
     /* 
