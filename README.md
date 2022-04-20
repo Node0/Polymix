@@ -1,7 +1,9 @@
 # Polymix
 A remarkably simple mixin module to enable class-based JS to achieve easy namespaced (or not) polymorphism.  
 
-Just two functions... used in the class constructors... of all your classes...  
+#### Just two functions... used in the class constructors... of all your classes...  
+  
+##### This code is in process of getting published to `npm` when that occurs, the examples will reflect correct require and import terminology, in the meantime, have a look at ./examples/polymix_example.js for the details of the two functions.
 
 Inside Ancestor class constructors ->  `makeMixable( this, <AncestorClassName> )`  
 
