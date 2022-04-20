@@ -138,4 +138,37 @@ class Animal extends Eukaryote {
     }
   }
 }
+```  
+  
+The above code yeilds the following object:  
+  
 ```
+Animal {
+  foo: 'Some public property',
+  radius: 10,
+  hasNucleus: true,
+  nucleus: {},
+  hasNanoProbe: true,
+  cellImportinTransport: [Function: cellImportinTransport],
+  name: 'Seven',
+  NP: {
+    hasNanoProbe: true,
+    borgProperty1: 'Some value',
+    borgCapability1: [Function (anonymous)],
+    beep: [Function: beep],
+    logCellActivity: [Function: logCellActivity]
+  },
+  Bact: {
+    radius: 1,
+    hasNucleus: false,
+    toughCellWall: {},
+    createHydrocarbon: [Function: createHydrocarbon],
+    gurgle: [Function: gurgle]
+  },
+  borgProperty1: 'Some value',
+  borgCapability1: [Function (anonymous)],
+  beep: [Function: beep],
+  logCellActivity: [Function: logCellActivity]
+}
+```  
+
