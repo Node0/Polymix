@@ -11,7 +11,7 @@ Inside Child class constructors    ->  `Mixin( this.<namespace> = {}, new <Child
 
 First in ancestor classes...  
 
-```
+```javascript
 class Eukaryote {
   constructor(radius) {
     this.radius =
@@ -74,7 +74,7 @@ class NanoProbe {
 
 Then in child classes...  
 
-```
+```javascript
 // ES6 Class based OOP allows for single-inheritance only  
 
 class Animal extends Eukaryote {  
@@ -142,7 +142,7 @@ class Animal extends Eukaryote {
   
 The above code yields the following object:  
   
-```
+```javascript
 Animal {
   foo: 'Some public property',
   radius: 10,
