@@ -140,7 +140,7 @@ class Animal extends Eukaryote {
 }
 ```  
   
-The above code yeilds the following object:  
+The above code yields the following object:  
   
 ```
 Animal {
