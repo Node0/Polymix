@@ -101,7 +101,7 @@ class Animal extends Eukaryote {
      *  If we wish to play without gaurdrails, we can Mixin to 'this' and risk overwriting
      *  extant methods and properties on the child class.
      */
-    Mixin(this, new NanoProbe());
+    // Mixin(this, new NanoProbe());
 
     /*
      *  The general form of Polymix's Mixin pattern is:

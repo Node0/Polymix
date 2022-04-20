@@ -100,7 +100,7 @@ class Animal extends Eukaryote {
     *  If we wish to play without gaurdrails, we can Mixin to 'this' and risk overwriting
     *  extant methods and properties on the child class.
     */
-    Mixin( this, new NanoProbe() );
+    // Mixin( this, new NanoProbe() );
     
     /*
     *  The general form of Polymix's Mixin pattern is:
@@ -148,7 +148,7 @@ Animal {
   radius: 10,
   hasNucleus: true,
   nucleus: {},
-  hasNanoProbe: true,
+  hasNanoProbe: false,
   cellImportinTransport: [Function: cellImportinTransport],
   name: 'Seven',
   NP: {
@@ -164,11 +164,6 @@ Animal {
     toughCellWall: {},
     createHydrocarbon: [Function: createHydrocarbon],
     gurgle: [Function: gurgle]
-  },
-  borgProperty1: 'Some value',
-  borgCapability1: [Function (anonymous)],
-  beep: [Function: beep],
-  logCellActivity: [Function: logCellActivity]
+  }
 }
 ```  
-
